@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dannygonzalez.mapmaker.MainActivity"
+    android:weightSum="100">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_weight="90"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/button"
+            android:layout_weight="10" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:id="@+id/Colorbutton"
+            android:layout_weight="10" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/up"
+            android:id="@+id/Sizeup"
+            android:layout_weight="10" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/down"
+            android:id="@+id/Sizedown"
+            android:layout_weight="10" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapMaker</string>
+    <string name="clear">Clear</string>
+    <string name="up">+</string>
+    <string name="down">-</string>
+    <string name="color">color</string>
+</resources>
